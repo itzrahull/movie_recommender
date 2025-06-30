@@ -34,6 +34,51 @@ movie-recommender-system/
 ```
 
 <br>
+
+## ▶️ How to Run the Project
+
+Follow these steps to run the **Movie Recommender System** from scratch:
+
+### 📥 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/movie-recommender-system.git
+cd movie-recommender-system
+```
+
+### 📦 2. Install Dependencies
+
+Make sure Python 3.7+ is installed. Then run:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 🧠 3. Generate Required `.pkl` Files
+
+Run the notebook that prepares the dataset and similarity matrix:
+
+```bash
+jupyter notebook notebook.ipynb
+```
+
+> This will create:
+>
+> * `movie_list.pkl`
+> * `similarity.pkl`
+
+in the same directory.
+
+### 🚀 4. Launch the App
+
+Run the Streamlit app:
+
+```bash
+streamlit run app.py
+```
+
+<br>
+
 ---
 
 
